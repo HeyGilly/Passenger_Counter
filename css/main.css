@@ -118,6 +118,20 @@ h3{
   box-shadow: 0 0 5px black;
 }
 
+/*header 5 for results*/
+h5{
+  text-align: center;
+}
+/*saved Results paragraph*/
+#savedResults{
+  text-align: center;
+  padding-bottom: 3em;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+
 /*Bigger then 600px*/
 @media only screen and (min-width: 600px) {
   /*Counter Header*/
