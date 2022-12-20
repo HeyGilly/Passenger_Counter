@@ -1,34 +1,39 @@
 <!doctype html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Passenger Counter</title>
-  <meta name="description" content="This application will be used for counting the number of passenger in any area. You click on the button and it will increase the counter number, and then there is a reset button to start over. ">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Passenger Counter</title>
+    <meta name="description" content="This application will be used for counting the number of passenger in any area. You click on the button and it will increase the counter number, and then there is a reset button to start over. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
 
-<body>
+  <body>
 
-<!--Small Navigation-->
-<nav>
-  <h4 id="nav-name">
-    <a href="https://github.com/HeyGilly" id="nav-anchor">HEY GILLY</a>
-  </h4>
-</nav>
-<!--Main Section-->
-  <main>
-      <div id="counter-background">
-        <h3>Passenger Counter</h3>
-        <p id="small-text"><small>Please keep counter of all passengers inside of area</small></p>
-        <span id="counter-number">0</span>
+    <!--Small Navigation-->
+    <nav>
+      <h4 id="nav-name">
+        <a href="https://github.com/HeyGilly" id="nav-anchor">HEY GILLY</a>
+      </h4>
+    </nav>
 
-      </div>
+    <!--Main Section-->
+    <main>
+        <div id="counter-background">
+          <section id="hiddenContainer">
+            <h3>Passenger Counter</h3>
+            <p id="small-text"><small>Please keep counter of all passengers inside of area</small></p>
+            <p id="counter-number">0</p>
+            <section id="buttonContainer">
+              <button type="button" id="addButton" onclick="alert('Add One Person')">Add One</button>
+              <button type="button" id="resetButton" onclick="alert('Reset')">Reset</button>
+            </section>
+          </section>
+        </div>
+    </main>
 
-  </main>
-
-</body>
+  </body>
   <!--Personal Javascript -->
   <script src="js/main.js"></script>
 </html>
