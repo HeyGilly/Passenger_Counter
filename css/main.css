@@ -56,12 +56,7 @@ main{
   margin: 0 20px 0 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px aliceblue;
-
-
 }
-
-
-
 
 /*Counter Header*/
 h3{
@@ -69,6 +64,7 @@ h3{
   text-transform: uppercase;
   padding-top: 1em;
 }
+/*Description*/
 #small-text{
   text-align: center;
   width: 90%;
@@ -130,7 +126,17 @@ h5{
   margin: 0 auto;
 }
 
-
+/*Footer*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: azure;
+  color: darkred;
+  text-align: center;
+  padding: .5em;
+}
 
 /*Bigger then 600px*/
 @media only screen and (min-width: 600px) {
