@@ -26,9 +26,11 @@
             <p id="small-text"><small>Please keep counter of all passengers inside of area</small></p>
             <p id="counter-number">0</p>
             <section id="buttonContainer">
-              <button type="button" id="addButton" onclick="alert('Add One Person')">Add One</button>
-              <button type="button" id="resetButton" onclick="alert('Reset')">Reset</button>
+              <button type="button" id="addButton" onclick="increase()">Add One</button>
+              <button type="button" id="resetButton" onclick="save()">Save</button>
             </section>
+            <h5>Saved Results:</h5>
+            <p id="savedResults"></p>
           </section>
         </div>
     </main>
