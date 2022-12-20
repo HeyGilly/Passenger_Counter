@@ -2,7 +2,7 @@
 <h1 align="center">
   <br>
   <a href="https://www.linkedin.com/in/heygilly">
-    <img src="/Users/heygilly/IdeaProjects/Passenger_Counter/Assets/heygilly.png" alt="HeyGilly" width="200">
+    <img src="/Users/heygilly/IdeaProjects/Passenger_Counter/Assets/heygilly.png" alt="HeyGilly" width="201">
     </a>
   <br>
   Passenger Counter
