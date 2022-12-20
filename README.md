@@ -18,6 +18,8 @@ If the save button is pushed you will hve to the ability to save past counts, so
 <img src="Assets/passengerCounterGIF.gif" alt="View of Counter" align="center">
 </div>
 
+## Live View
+- <a href="https://passengercounter-gilly.netlify.app/"> Click Here</a>
 
 ## Languages
 
